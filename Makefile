@@ -14,10 +14,10 @@ ifndef bucket
 $(error Missing command line parameter 'bucket=[bucket_name]')
 endif
 
-# check if "region" parameter is set, otherwise set region to "us-east-1" as default
+# check if "region" parameter is set, otherwise set region to "eu-west-1" as default
 ifndef region
-region=us-east-1
-$(info Parameter 'region' has not been set, defaulting to region 'us-east-1'.)
+region=eu-west-1
+$(info Parameter 'region' has not been set, defaulting to region 'eu-west-1'.)
 endif
 
 # add profile string when parameter profile has been set

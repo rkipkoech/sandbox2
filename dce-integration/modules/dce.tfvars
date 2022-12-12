@@ -1,9 +1,9 @@
 namespace = "dce"
 namespace_prefix = "dce"
-aws_region = "us-east-1"
+aws_region = "eu-west-1"
 allowed_regions = [
     "us-east-1",
-    "us-west-2"
+    "eu-west-1"
   ]
 
 check_budget_enabled = true
